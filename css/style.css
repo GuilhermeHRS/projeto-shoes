@@ -1,0 +1,59 @@
+@font-face {
+    font-family: sofia;
+    src: url('../font/sofiapro-light.otf');
+}
+@font-face {
+    font-family: circular;
+    src: url('../font/Circular\ Std\ Font.otf');
+}
+
+html, body {
+    margin:  0 auto;
+    padding: 0;
+}
+
+header{
+	background: #4deb6f; /* COR DO FUNDO */
+	margin: 0;
+	height: 42px;
+	padding: 40px 0 25px 0;
+}
+header a{
+	color: #000000;
+	text-decoration: none;
+}
+
+header .wrapper #theme{
+	display: block;
+	float: left;
+    font-family: circular;
+    font-weight: bolder;
+    font-size: 24px;
+    text-shadow: rgba(56, 56, 56, 0.5) 0.2em 0.2em 0.3em;
+}
+
+header .wrapper nav{
+	display: block;
+	float: right;
+	margin: 0px 0px 0px 8px;
+	font-size: 15px; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+header .wrapper nav ul{
+	margin: 0 0 0 0;
+    padding: 0;
+}
+header .wrapper nav ul img{
+    height: 24px;
+}
+
+header .wrapper nav ul li{
+	display: inline-block;
+	margin: 0px 0px 0px 18px;
+	color: #FFFFFF;
+}
+.wrapper{
+	width: 1250px;
+	margin: 0 auto 0 auto;
+}
+

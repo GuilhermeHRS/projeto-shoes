@@ -1,36 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-	<main>
-		<header>
-			<div class="wrapper">
+    <div class="container">
+        <header>
+            <div class="wrapper">
 				<a href="index.html">
 					<span id="theme">zainoo</span>
 					<span id="tm" style="font-size: 0.9em"> &trade;</span> 
 				</a>
 				<nav>
 					<ul>
-						<li><a href="#"><img src="./img/loupe.png" style="height: 19px;"  alt="search"></a></li>
+						<li><a href="#"><img src="./img/loupe.png"  alt="search" style="height: 19px;"></a></li>
 						<li><a href="#"><img src="./img/basket.png" alt="store"></a></li>
 						<li><a href="#"><img src="./img/person.png" alt="account"></a></li>
 					</ul>
 				</nav>
 			</div>
-		</header>
-		<div id="menu-left">
-			<p>Shoes</p>
-			<p>Bags</p>
-			<p>Accessories <span class="new">New</span></p>
-			<p>Support</p>
-		</div>
-		
-	</main>
+        </header>
+        <main>
+            <div id="menu-main">
+                <p>The best looks; Top Comfort</p>
+                <span style="font-size: 35px;">Comfy Maxer <span id="mr" style="font-size: 1em;"> &reg;</span></span>
+                <p>Our shoes fuse together an insole that cushions every <br> move, laces that you’ll never need to tie again, and an <br> odor-fighting copper thread lining.</p>
+
+                <div class="btn-group">
+                    <button class="btn-cart"><img src="img/shopping-bag.png">Add To Cart</button>
+                    <button class="btn-watch"><img src="img/play-button.png">Watch intro</button>
+                </div>
+            </div>
+            <div class="detalhe">
+                <img src="./img/shoes_sbg.png" class="shoe" alt="shoes">
+                <img src="./img/logo-air-jordan-2048.png" class="logo" alt="shoes">
+            </div>
+        </main>
+        <section id="aside-left">
+            <div>
+                <p>Shoes</p>
+                <p>Bags</p>
+                <p>Accessories <span id="new">New</span></p>
+                <p>Support</p>
+            </div>    
+            <div id="menu-bottom">
+                <p id="back-black">Extra <br> Care</p>
+                <p id="back-white">Foot <br> Tech</p>
+            </div>
+            <div id="line">
+                <hr>
+                <p class="text">learn more</p>
+            </div>
+        </section>
+        <footer></footer>
+    </div>
 </body>
 </html>
